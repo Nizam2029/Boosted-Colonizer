@@ -1,17 +1,24 @@
 [
-  {
-    "name": "Settler",
-    "unitType": "Civilian",
-    "movement": 2,
-    "cost": 106,
-    "uniques": [
-      "Founds a new city",
-      "Excess Food converted to Production when under construction",
-      "Requires at least [2] population",
-      "[+3] Sight <before the [Classical era]>",
-      "[+2] Movement <before the [Classical era]>",
-      "Can see over obstacles <before the [Classical era]>"
-    ],
-    "hurryCostModifier": 20,
-  },
+	{
+		"name": "Colonizer",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": [
+			"Founds a new city <by consuming this unit>",
+			"Excess Food converted to Production when under construction",
+      "[+3] Sight <before the [Halcyon era]>",
+      "[+2] Movement <before the [Halcyon era]>",
+			"Requires at least [2] population"
+		],
+		"hurryCostModifier": 20,
+		"civilopediaText": [
+      {
+				"Separator": true
+			},
+			{
+				"text": "A mobile, self-deploying settlement kit, complete with starter 3D printer and the settlers to inhabit the end result."
+			}
+		]
+  }
 ]
